@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2021.1/data/xilinx_vip/include" --include "../../../../raycaster_test.gen/sources_1/bd/racaster_test/ipshared/ec67/hdl" --include "../../../../raycaster_test.gen/sources_1/bd/racaster_test/ipshared/f42d/hdl" --include "../../../../raycaster_test.gen/sources_1/bd/racaster_test/ipshared/80cc/hdl/verilog" --include "../../../../raycaster_test.gen/sources_1/bd/racaster_test/ipshared/22b9/hdl/verilog" \
+"../../../bd/racaster_test/ip/racaster_test_xlconstant_0_0/sim/racaster_test_xlconstant_0_0.v" \
+"../../../bd/racaster_test/ip/racaster_test_xlconstant_0_1/sim/racaster_test_xlconstant_0_1.v" \
+"../../../bd/racaster_test/ip/racaster_test_xlconcat_0_0/sim/racaster_test_xlconcat_0_0.v" \
+"../../../bd/racaster_test/ip/racaster_test_xlconstant_2_0/sim/racaster_test_xlconstant_2_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

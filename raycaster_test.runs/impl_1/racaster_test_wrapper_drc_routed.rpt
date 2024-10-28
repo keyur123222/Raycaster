@@ -1,0 +1,76 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Sat Oct 26 23:39:01 2024
+| Host         : Key running 64-bit major release  (build 9200)
+| Command      : report_drc -file racaster_test_wrapper_drc_routed.rpt -pb racaster_test_wrapper_drc_routed.pb -rpx racaster_test_wrapper_drc_routed.rpx
+| Design       : racaster_test_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 8
++-----------+----------+-----------------+------------+
+| Rule      | Severity | Description     | Violations |
++-----------+----------+-----------------+------------+
+| REQP-1580 | Warning  | Phase alignment | 8          |
++-----------+----------+-----------------+------------+
+
+2. REPORT DETAILS
+-----------------
+REQP-1580#1 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/ClockSerializer/SerializerMaster. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/ClockSerializer/SerializerMaster/CLK / racaster_test_i/rgb2dvi_0/U0/ClockSerializer/SerializerMaster/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+REQP-1580#2 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/ClockSerializer/SerializerSlave. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/ClockSerializer/SerializerSlave/CLK / racaster_test_i/rgb2dvi_0/U0/ClockSerializer/SerializerSlave/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+REQP-1580#3 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/DataEncoders[0].DataSerializer/SerializerMaster. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/DataEncoders[0].DataSerializer/SerializerMaster/CLK / racaster_test_i/rgb2dvi_0/U0/DataEncoders[0].DataSerializer/SerializerMaster/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+REQP-1580#4 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/DataEncoders[0].DataSerializer/SerializerSlave. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/DataEncoders[0].DataSerializer/SerializerSlave/CLK / racaster_test_i/rgb2dvi_0/U0/DataEncoders[0].DataSerializer/SerializerSlave/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+REQP-1580#5 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/DataEncoders[1].DataSerializer/SerializerMaster. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/DataEncoders[1].DataSerializer/SerializerMaster/CLK / racaster_test_i/rgb2dvi_0/U0/DataEncoders[1].DataSerializer/SerializerMaster/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+REQP-1580#6 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/DataEncoders[1].DataSerializer/SerializerSlave. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/DataEncoders[1].DataSerializer/SerializerSlave/CLK / racaster_test_i/rgb2dvi_0/U0/DataEncoders[1].DataSerializer/SerializerSlave/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+REQP-1580#7 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/DataEncoders[2].DataSerializer/SerializerMaster. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/DataEncoders[2].DataSerializer/SerializerMaster/CLK / racaster_test_i/rgb2dvi_0/U0/DataEncoders[2].DataSerializer/SerializerMaster/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+REQP-1580#8 Warning
+Phase alignment  
+Unsupported clocking topology used for OSERDESE2 racaster_test_i/rgb2dvi_0/U0/DataEncoders[2].DataSerializer/SerializerSlave. This can result in corrupted data. The racaster_test_i/rgb2dvi_0/U0/DataEncoders[2].DataSerializer/SerializerSlave/CLK / racaster_test_i/rgb2dvi_0/U0/DataEncoders[2].DataSerializer/SerializerSlave/CLKDIV pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+Related violations: <none>
+
+
